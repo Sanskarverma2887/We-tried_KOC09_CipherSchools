@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+
+.bg{
+    background: darkblue;
+    height: 10vh;
+    margin: -16px -8px;
+}
+
+.bg ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg ul li{
+    margin: 10px 10px;
+    padding: 13px 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    list-style: none;
+}
+    
+
+.bg ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.txt{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    transform: translateY(30px);
+}
+
+.contain{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic a img{
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    transform: translateY(60px);
+}
+
+.pic a p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    transform: translateY(15px);
+}
+    
+.pic a{
+    text-decoration: none;
+}
+
+.contain2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pic2 a img{
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    transform: translateY(60px);
+}
+
+.pic2 a p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    transform: translateY(15px);
+}
+    
+.pic2 a{
+    text-decoration: none;
+}
